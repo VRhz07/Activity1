@@ -1,48 +1,48 @@
 
 .custom-navbar {
-    background-color: #0c0e13; /* Dark background for navbar */
+    background-color: #0c0e13;
 }
 
-/* Navbar brand/logo color */
+
 .navbar-brand {
-    color: #b5c7eb; /*Primary text color-light*/
+    color: #b5c7eb;
     font-size: 30px;
 }
 
 /* Navbar link styles */
 .nav-link {
     margin-right: 15px;
-    padding: 10px 20px; /* Add more padding for a button look */
-    border-radius: 8px; /* More rounded corners for the buttons */
+    padding: 10px 20px;
+    border-radius: 8px;
     color: #b5c7eb;
     text-align: center;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Hover effect */
 .nav-link:hover {
     background-color: #b5c7eb;
     color: #1d2129;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for a 3D effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Hamburger toggle icon */
 .navbar-toggler {
     background-color: #b5c7eb;
 }
-/* Ensure body and page content doesn't overlap with fixed navbar */
+
 body {
-    padding-top: 60px; /* Space for fixed navbar */
-    background-color: #1d2129; /* Dark background for the page */
-    color: #dae3f5; /* Light blue text color for general content */
+    padding-top: 60px;
+    background-color: #1d2129;
+    color: #dae3f5;
 }
 
-/* General page text color */
+
 .navbar-nav .nav-link {
-    color: ; /* Light blue for navigation links */
+    color: ;
 }
 
-/* Stronger shadow when scrolling */
+
 .navbar.fixed-top.scrolled {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -50,13 +50,13 @@ body {
 /* Headings */
 h1 {
     font-family: 'Poppins', sans-serif;
-    color: #dae3f5; /* Light blue for headings */
+    color: #dae3f5;
     font-size: 2.5rem;
     text-align: center;
     padding-top: 20px;
 }
 
-/* Logo container styles */
+
 .logo-container {
     display: flex;
     flex-direction: column;
@@ -77,7 +77,7 @@ h1 {
     text-align: center;
 }
 
-/* Font styling */
+
 body, h1, h2{
     font-family: 'Poppins', sans-serif;
 }
@@ -97,7 +97,7 @@ p{
 }
 
 .about-me header {
-    background-color: #0c0e13; /* Slightly lighter dark background */
+    background-color: #0c0e13;
     padding: 20px;
     text-align: center;
     border-top-left-radius: 10px;
@@ -112,7 +112,7 @@ p{
 }
 
 .about-me section {
-    background-color: #1d2129; /* Match body background */
+    background-color: #1d2129;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -132,14 +132,14 @@ p{
 
 .about-me li {
     padding: 10px;
-    border-bottom: 1px solid #444444; /* Subtle line divider */
+    border-bottom: 1px solid #444444;
 }
 
 .about-me li:last-child {
     border-bottom: none;
 }
 
-/* Footer section styles
+/*
 .about-me footer {
     background-color: #1d2129;
     padding: 10px;

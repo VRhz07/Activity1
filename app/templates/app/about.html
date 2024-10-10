@@ -1,0 +1,39 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/base.css' %}">
+<div class="about-me">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <main>
+            <section>
+                <h2 id="typing-effect">Who am I?</h2>
+                <p> I'm Harvey Verian a student with a passion for technology, currently learning web development.
+                    In my free time, I enjoy watching TV, reading Manwha and Manga, gaming, and working out.</p>
+            </section>
+            <section>
+                <h2>My Skills</h2>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Drawing</li>
+                    <li>Gaming</li>
+
+                </ul>
+            </section>
+            <section>
+                <h2>Get in Touch</h2>
+                <p>Want to connect? Reach out to me at facebook <b> <a href="https://www.facebook.com/Haesias/">Harvz Verian</a> </b> .</p>
+            </section>
+        </main>
+    <!--
+        <footer>
+            <p>&copy; 2024 Harvey Verian</p>
+        </footer>
+        -->
+    </div>
+
+{% endblock content %}
+
+

@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harvz Act-1</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="{% static 'images/HarvzLogo.ico' %}" type="image/x-icon">
+
+
+
+
+
+</head>
+<body>
+
+{% include 'app/navbar.html' %}
+{% block content %}
+<!--pages!-->
+{% endblock content %}
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const typingEffect = document.getElementById('typing-effect');
+const text = 'Who am I?';
+let index = 0;
+let isDeleting = false;
+const typingSpeed = 200; // Speed for typing
+const pauseDuration = 2000; // Pause duration in milliseconds
+
+function type() {
+  if (!isDeleting) {
+    typingEffect.textContent = text.substring(0, index + 1);
+    index++;
+
+    if (index === text.length) {
+      setTimeout(() => {
+        isDeleting = true;
+        index = text.length - 1; // Reset index for deleting
+        type();
+      }, pauseDuration);
+      return;
+    }
+  } else {
+    typingEffect.textContent = text.substring(0, index);
+    index--;
+
+    if (index === 0) {
+      setTimeout(() => {
+        isDeleting = false;
+        index = 0; // Reset index for typing
+        type();
+      }, pauseDuration);
+      return;
+    }
+  }
+
+  setTimeout(type, isDeleting ? 100 : typingSpeed);
+}
+
+type();
+</script>
+
+
+
+</body>
+</html>

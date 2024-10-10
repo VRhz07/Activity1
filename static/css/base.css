@@ -1,0 +1,160 @@
+
+.custom-navbar {
+    background-color: #0c0e13; /* Dark background for navbar */
+}
+
+/* Navbar brand/logo color */
+.navbar-brand {
+    color: #b5c7eb; /*Primary text color-light*/
+    font-size: 30px;
+}
+
+/* Navbar link styles */
+.nav-link {
+    margin-right: 15px;
+    padding: 10px 20px; /* Add more padding for a button look */
+    border-radius: 8px; /* More rounded corners for the buttons */
+    color: #b5c7eb;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.nav-link:hover {
+    background-color: #b5c7eb;
+    color: #1d2129;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for a 3D effect */
+}
+
+/* Hamburger toggle icon */
+.navbar-toggler {
+    background-color: #b5c7eb;
+}
+/* Ensure body and page content doesn't overlap with fixed navbar */
+body {
+    padding-top: 60px; /* Space for fixed navbar */
+    background-color: #1d2129; /* Dark background for the page */
+    color: #dae3f5; /* Light blue text color for general content */
+}
+
+/* General page text color */
+.navbar-nav .nav-link {
+    color: ; /* Light blue for navigation links */
+}
+
+/* Stronger shadow when scrolling */
+.navbar.fixed-top.scrolled {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #dae3f5; /* Light blue for headings */
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Logo container styles */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+.logo-container img.logo {
+    border-radius: 10%;
+    max-width: 20rem;
+    height: auto;
+    margin-bottom: 2%;
+    margin-top: 90px;
+}
+
+/* Text styling for the logo section */
+.logo-text {
+    text-align: center;
+}
+
+/* Font styling */
+body, h1, h2{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size:20px;
+}
+
+
+/* About me section styles */
+.about-me {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #0c0e13;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me header {
+    background-color: #0c0e13; /* Slightly lighter dark background */
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.about-me main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-me section {
+    background-color: #1d2129; /* Match body background */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.about-me h1, .about-me h2 {
+    color: #b5c7eb;
+}
+
+/* List styles in about section */
+.about-me ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-me li {
+    padding: 10px;
+    border-bottom: 1px solid #444444; /* Subtle line divider */
+}
+
+.about-me li:last-child {
+    border-bottom: none;
+}
+
+/* Footer section styles
+.about-me footer {
+    background-color: #1d2129;
+    padding: 10px;
+    text-align: center;
+    color: #b5c7eb; /* Light blue footer text
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+*/
+
+<!-------typing effect---------->
+#typing-effect {
+  font-size: 36px;
+  font-family: monospace;
+}
+
